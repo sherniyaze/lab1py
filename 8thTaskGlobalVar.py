@@ -14,3 +14,11 @@ def mynewfunc():
 mynewfunc()
 
 print("Python is " + x)
+
+def mynewestfunc():
+    global x
+    x = "fantastic!"
+    print("Python is " + x)
+mynewestfunc()
+
+print("Python is " + x)
